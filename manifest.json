@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "name": "f4f_checker",
+    "description": "",
+    "version": "0.1",
+    "default_locate": "ja-JP",
+
+    "content_scripts": [
+        {
+            "matches": [ "https://twitter.com/*" ],
+            "js": [ "script.js" ]
+        }
+    ]
+}
